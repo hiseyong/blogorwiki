@@ -1,0 +1,30 @@
+{
+  "name": "blog_or_wiki",
+  "version": "1.0.0",
+  "description": "backend of my wiki",
+  "main": "app.js",
+  "scripts": {
+    "start": "cd .. && cd frontend && npm start",
+    "dev": "nodemon app.js",
+    "server": "nodemon"
+  },
+  "keywords": [
+    "wiki"
+  ],
+  "author": "hiseyong",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "request-ip": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

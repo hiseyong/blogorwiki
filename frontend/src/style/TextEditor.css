@@ -1,0 +1,63 @@
+.App {
+    text-align: center;
+  }
+  
+  .movie-container {
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid #333;
+    padding: 10px 0 30px 0;
+    border-radius: 5px;
+    margin-bottom : 50px;
+  }
+  
+  .form-wrapper{
+    width: 100%;
+    margin: 0;
+    color: black;
+  }
+
+  
+  .title-input {
+    width: 70%;
+    height: 40px;
+    margin: 10px;
+  }
+  
+  .submit-button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    background: indianred;
+    border-radius: 5px;
+    margin-top: 40px;
+    vertical-align: middle;
+  }
+  
+  .ck.ck-editor__editable:not(.ck-editor__nested-editable) {
+    min-height: 500px;
+  }
+
+  .ck.ck-dropdown {
+    width: 300px !important;
+    height: 100% !important;
+  }
+  .ck.ck-toolbar.ck-toolbar_grouping {
+    height: 100px !important;
+  }
+  .ck.ck-toolbar__items {
+    height: 100% !important;
+  }
+
+  .ck.ck-editor__top ck-reset_all {
+    height: 100px !important;
+  }
+  .ck.ck-sticky-panel {
+    height: 100% !important;
+  }
+
+  .ck.ck-sticky-panel__content {
+    height: 100% !important;
+  }

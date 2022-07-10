@@ -1,0 +1,24 @@
+div {
+    overflow:auto;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+ul {
+    list-style:none;
+}
+ 
+li {
+    float: left;
+    margin-right: 20px;
+}
+
+.btn {
+    color: #838383;
+  }
+  .btn.active {
+    color: rgb(255, 255, 255);
+  }
